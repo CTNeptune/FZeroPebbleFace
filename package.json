@@ -1,0 +1,46 @@
+{
+    "author": "tomcat94@ymail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "f-zero",
+    "pebble": {
+        "displayName": "F-Zero",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/captain_falcon_icon",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/FZeroBGBT_adjusted.png",
+                    "name": "IMAGE_BG",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ship.png",
+                    "name": "IMAGE_SHIP",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/FZeroBG_adjusted.png",
+                    "name": "IMAGE_NOBT",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "0a6d278c-d82f-4b95-b97f-878c8e07c5c8",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
